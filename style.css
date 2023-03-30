@@ -12,15 +12,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: all 0.1s linear;
 }
 
 body{
     transition: background 0.2s linear;
+    cursor: pointer;
 }
 
 body.dark {
@@ -57,6 +53,7 @@ justify-content: space-between;
 padding: 5px;
 position: relative;
 transform: scale(1.5);
+cursor: pointer;
 }
 
 .ball {
@@ -83,3 +80,36 @@ color: pink;
 color: yellow;
 }
 
+table{
+    margin-top: 10%;
+    height: fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid var(--black);
+}
+
+tr{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+td{
+    padding: 5px 4px;
+}
+
+input[type="button"]{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    width: 85px;
+    height: 50px;
+}
+
+input[type="text"]{
+    width: 265px;
+    height: 50px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
